@@ -1,0 +1,28 @@
+{
+    "material_rate": [
+        {
+            "material": "gold",
+            "weighingunit": ["", "tola","tolas","gram","grams","twenty four carat","twenty four carats", "twenty two carat", "twenty two carats", "twenty one carat",  "twenty one carats","eighteen carat", "eighteen carats"],
+            "rate": ["139023", "139023","139023","11931.7","11931.7", "139000", "139000", "127416", "127416", "121625", "121625", "104250", "104250"]
+        },
+
+        {
+            "material": "silver",
+            "weighingunit": ["", "tola","tolas","gram","grams"],
+            "rate": ["1654", "1654","1654","142", "142"]
+        },
+
+        {
+            "material": "platinum",
+            "weighingunit": ["", "tola","tolas","gram","grams"],
+            "rate": ["71956", "71956","71956","6176","6176"]
+        },
+
+        {
+            "material": "diamond",
+            "weighingunit": ["", "hundred milligram","one by four carats","one fourth carat", "half carat", " one by two carats", "one carat"],
+            "rate": ["131693", "13169","139023","32923", "32923", "65847", "65847", "131693","131693"]
+        }
+    ]
+
+}

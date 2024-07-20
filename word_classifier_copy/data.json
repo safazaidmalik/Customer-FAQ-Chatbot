@@ -1,0 +1,114 @@
+{"intents": [
+    {"tag": "greetings",
+      "patterns": ["Hi", "Hey", "How are you","How is it going?", "Is anyone there?", "Hello", "Good day",
+                    "Hello", "Wassup ?", "Whats up", "Hey", "greetings","OHH Hellooo"],
+      "responses": ["Hello!! Welcome to our shop", "Good to see you !! Welcome to our shop", "Hi Welcome to our shop, how can I help?",
+                    "Hey! Welcome to our shop. What can we do for you ?","Welcome to our shop...May i help you"],
+      "followup": ["You can try our new range!!!","We are currently offering 25% off on all our items"]
+    },
+    
+    {"tag": "goodbye",
+      "patterns": ["cya", "See you later","I gotta go", "Goodbye", "I am Leaving", "Have a Good day", "bye", "cao", "see ya","I need to go"],
+      "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!","Will love to see you again!!!!"],
+      "followup": ["",""]
+      
+    },
+    
+    {"tag": "Jewellery",
+    "patterns": ["What do you guys sell?", "What is your shop about?", "You have speacialized in what?"],
+      "responses": ["We have our specialization in jewellery making, mostly rings and bracelets.","Our shop is all about making jewellery, even customized as well"],
+      "followup": ["You can check out our best sellings","Will you like to take a tour of our shop"]
+    },
+    
+    {"tag":"name",
+        "patterns":["what is the name of the shop ", "By what name are you guys recognized as?"],
+        "responses":["Well its AIZAMS, A I Z A M S !!!.", "You can call us AIZAMS!!!"],
+         "followup": ["It took us time to get to this name","People often find this name quite interesting :)"]
+    },
+    
+    {"tag":"negative feedback",
+     "patterns":["I didn't like its quality", "My expectation were higher","It has been made terribly","The qulaity can be far better!!!","This is not good"],
+     "responses":["Thank you for the feedback, we will try to work on it.", "We will look into it, Thank you","Our team is always try to get the best for you!!!"],
+      "followup": ["In the mean time you can fill our feedback form.","If you are interested you can look at our best sellers :)"]
+    },
+    
+    {"tag":"positive feedback",
+     "patterns":["I just loved the quality", "its too good!!!","The jewellery looks amazing :)","I will love to shop again :))","great","That's cool !!!"],
+     "responses":["Thank you for the amazing feedback :)", "We love to hear this from our customers"," Thank you :)) You should definitely look into our new products"] ,
+       "followup": ["We are currently offering 25% off on all our items","We have special deals going on !!!"]
+       
+    },
+    
+    {"tag":"Specialization",
+     "patterns":["What would you recommend?", "Which one is your best selling article?","Your shop is famous for what!!!"],
+     "responses":["As we mostly deal in diamond and gold jewellery, so the rings are our best selling article", "Our rings have the hightest selling rate, so you should get them :))"],
+     "followup": ["The ring with the white crystal is our best seller","Other than rings, customers love our bracelets as well !!"]
+    },
+   
+    {"tag":"Random",
+     "patterns":["Okay Thank You !!", "Thanks for helping :)","yes please"],
+     "responses":["Any Time", "Always looking forward to helping our customers !!", "Anything for our customers :) "],
+     "followup": ["Now you should get yourself some jewellery from our shop","So, then have a look at our best seller :))"]
+    },
+
+    {"tag":"Unknown",
+     "patterns":[],
+     "responses":["Sorry, could you repeat yourself?", "Sorry, I couldn't understand you?", "Kindly repeat yourself", "Sorry, I didn't quite catch what you said. Kindly repeat yourself"],
+     "followup": []
+     },
+
+    {"tag": "materialpricegivenweight",
+      "patterns": ["price of ?", "rate of ?", "cost of", "price ?","cost?", "rate?", "what is the cost of  tolas ?", "what's the price of  tola ?", "how much does  tola  cost?", "how expensive is  tolas ?", "what's the rate for  today?", "What is the current rate for ?", "i want to know the price of  tolas .", "tell me the price of  tolas ","i want to know the cost of  tolas .", "tell me the cost of  tolas "],
+      "responses": [" tolas  would cost you  rupees."," tolas  have price  rupees.", "The price of  tolas  is  rupees.", " tolas  cost  rupees.","Today's rate for  is  rupees per tola." , "We offer  at a rate of  rupees per tola."],
+      "followup": ["What would you like to buy from us?", "Would you like to buy a  set from us?", "What would you like to buy?", "How may I help you?","Would you like to buy something from us?","Are you interested in purchasing a  set?", "Are you looking for a  set?"]
+    },
+
+    {"tag": "discounts",
+      "patterns": ["Do you have any special discount packages?", "What discount packages do you offer?", "Do you have any discount policy?", "Show me your discounted items", "Do you offer any discounted items?", "Are any of your products on discount?", "Is anything on sale", "Is anything on discount?", "Are there any items on reduced prices?", "Does any product have reduced price?"],
+      "responses": ["Our prices are fixed,but our delivery is free.", "Sorry, we don't provide any discounts or offers. Good news is we do not charge for delivery."],
+      "followup": ["You can discuss any other concerns too.","We would love to deliver our best quality items."]
+    },
+     {"tag": "demands/expectations",
+      "patterns": [ "do you give guarantee for your shop jewelry","are your products reliable enough to buy"],
+      "responses": [ "we make sure that good quality item is delivered to your place with waranty card", "Yes! We give a warranty card with all of our products"],
+      "followup": ["You can discuss any of your other concerns too"]
+    },
+    {"tag": "refund",
+      "patterns": [ "Do you provide refund","Is the refund avalibale"],
+      "responses": [ "For refund you can email us", "Yes! You can refund within 10 days of your purchase"],
+      "followup": ["You can discuss any of your other concerns too"]
+    },
+
+
+         {"tag": "deliverylocation",
+      "patterns": ["Does your shop deliver orders?", "Which areas do your delivery service cover?", "Which cities does your shop provide delivery?", "Do you deliver across Pakistan?", "Where do you provide delivery?"],
+      "responses": [ "We provide delivery in a range of 5km, only in islamabad"],
+      "followup": ["You can discuss any of your other concerns too"]
+    },    
+    
+    {"tag": "replaceitem",
+      "patterns": ["what is your refund policy", "what is your replacement policy", "can we replace a purchased item", "can we refund a purchased item"],
+      "responses": ["if the customer doesn't like a product, we offer replacement for ready-made designs", "We offer a replacement policy for standard shop designs", "We allow refund for standard shop items within 3 days of purchase."],
+      "followup": ["is there any issue with any of our shop product?"]
+    },
+    
+    {"tag": "deliveryduration",
+    "patterns": ["Does your shop deliver orders on time?","do you make sure to deliver order on time?", "how much time does it take to ready our product?", "how long will you take to prepare my jewelry?", "how long till we can get our order?", "in how many days can we get our order?", "how long till our item is prepared?", "in how much can we get our order?", "in how long will our set get ready?"],
+      "responses": ["We are well-known for delivering orders on time! Our products are prepared and delivered within five to seven working days.", "You will receive your jewelry five to seven working days after you place the order.","Our orders are always delivered within five to seven days after being placed!"],
+      "followup": ["you can ask any other query you want","kindly share the design you want to order","you can visit our shop to try on our designs"]
+    },
+    
+    {"tag":"timings",
+        "patterns":["what are the timings of your shop ", "By what time do you close your shop", "what are your shop time durations?","What is the timing?"],
+        "responses":["Our shop is open from 8:00 am to 12:30 am", "We open up the shop at 8:00 am and close it at 12:30am sharp."],
+         "followup": ["Kindly let us know when would you like to visit us", "We believe starting business early in the morning helps it flourish!", "We're very punctual about our timings", "We have the longest hours in the market!"]
+    },
+     {"tag":"complaints",
+        "patterns":["my jewelry is getting black", "the bracelet i bought is small in size", "my jewelry is fading in color", "the material used is not authentic", "the metal used is fake", "the metal used is impure", "the chain is very weak", "color is fading", "color has faded"],
+        "responses":["We're so sorry to hear of your dissatisfaction! Kindly visit our shop so we can resolve your issue soon","We're terribly sorry to hear that. Kindly send us a picture of your receipt and jewelry so we can resolve your issue.", "Oh that's really unfortunate! Please see our shop soon so we can take care of your concern.", "We're sorry to hear that. Please contact our sales rep or visit our store so we can resolve your issue."],
+         "followup": ["We really care about our customers, and are constantly working to improve our service.","But please don't worry, customer care and satifaction is our first priority!"]
+    }
+      
+  ]
+}
+

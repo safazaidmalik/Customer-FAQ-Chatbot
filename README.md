@@ -1,4 +1,4 @@
-# NLU_Chatbot
+# Customer FAQ Chatbot
 A shopping chatbot that responds after intent extraction from user query by text classification.
 
 Three implementation variations of the chatbot are presented in this project.
